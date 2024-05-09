@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px;
+
+}
+
+#I1 {
+    height: 100px;
+}
+
+#I2 {
+    height: 40px;
+    margin-top: 10px;
+}
+
+#regform {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(40, 185, 40);
+    font-size: x-large;
+}
+
+.secondpage input {
+    border: none;
+    width: 200px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: rgba(220, 220, 220, 0.411);
+}
+
+.secondpage input:hover {
+    border: 1px solid skyblue;
+}
+
+#I3 {
+    margin: 15px 0px;
+    margin-top:50px ;
+}
+
+#I5 {
+    color: white;
+}
+
+.secondpage button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    width: 235px;
+    margin-top: 20px;
+    background-color: gainsboro;
+    color: white;
+}
+
+.secondpage button:hover {
+    background-color: black;
+    color: white;
+}

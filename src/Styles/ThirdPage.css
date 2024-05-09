@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100px;
+    margin: 20px;
+}
+.content img{
+    height: 60px;
+    margin: 20px;
+}
+.content h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 280%;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#Success{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(48, 156, 48);
+    font-size: xx-large;
+    margin: 20px 0px;
+}
+.content p{
+    font-family: "Roboto", sans-serif;
+    color: gray;
+    font-weight:400;
+    font-size: x-large;
+    margin: 10px 0px;
+}
+.countdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.countdown p{
+    margin-right: 10px;
+}

@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid gainsboro;
+    width: 90%;
+    height: 55px;
+    margin: 10px 30px;
+    border-radius: 35px;
+    padding: 10px 50px;
+}
+
+.navbar img {
+    height: 75px;
+    width: 100px;
+}
+
+#a {
+    margin-left: 1000px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid gainsboro;
+}
+
+#a:hover {
+    margin-left: 1000px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.174);
+}
+
+#b {
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+}
+
+#b:hover {
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgba(125, 117, 117, 0.961);
+}
+
+/* hero */
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin-top: 80px;
+    
+}
+#c {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(48, 156, 48);
+    font-size: xx-large;
+    margin-top: 30px;
+
+}
+
+.first img {
+    border-radius: 20px;
+}
+
+.first h1 {
+    text-align: justify;
+    font-weight: 500;
+}
+
+.second {
+    border: 1px solid none;
+    width: 12%;
+    text-align: justify;
+    padding: 10px;
+    transform: translateY(-380px);
+    margin-left: 150px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 3px 3px rgb(200, 193, 193);
+}
+
+.third {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid none;
+    height: 60px;
+    text-align: justify;
+    padding: 1px 5px;
+    transform: translateY(-330px);
+    margin-left: 210px;
+    background-color: white;
+    border-radius: 35px;
+    width: 14%;
+    box-shadow: 1px 3px 3px rgb(230, 226, 226);
+}
+.third img{
+    border: 1px solid gray;
+    border-radius: 100px;
+    background-color: gray;
+    border: none;
+    margin-right:10px ;
+}
+.third p{
+    transform: translateY(-2px);
+}
+.fourth {
+    border: 1px solid none;
+    width: 15%;
+    text-align:justify;
+    padding: 30px 20px;
+    transform: translateY(-350px);
+    margin-left: 560px;
+    background-color: rgb(3, 29, 3);
+    border-radius: 25px;
+    color: gainsboro;
+}
+.fourth h1{
+    font-weight:bolder;
+    font-size: xx-large;
+    transform: translateX(-25px);
+}
+.fourth p{
+    transform: translateX(20px);
+    color: gainsboro;
+}
+.million{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 20px;
+    transform: translatex(8px);
+}
+#million1{
+    color: gray;
+    /* font-size: large; */
+    transform: translateY(4px);
+}
+
+#d {
+    transform: translateY(-450px);
+    margin-left: 38%;
+    padding: 14px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+#d:hover{
+    transform: translateY(-450px);
+    margin-left: 38%;
+    padding: 14px;
+    background-color:gray;
+    color: white;
+    border-radius: 20px;
+}
+
+/* END */
+.end {
+    background: linear-gradient(rgba(185, 145, 145, 0.089), transparent), url("../Images/gray.avif");
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin: 10px 35px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    text-align: justify;
+    padding: 20px;
+    margin-top: -280px;
+}
+.right h3{
+    font-size: large;
+    font-weight: 700;
+}
+.right p{
+    margin-bottom: 10px;
+}
+.r1,
+.r2,
+.r3,
+.r4,
+.r5,
+.r6 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding:10px 0px ;
+}
+
+.left p {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 900;
+    font-size: x-large;
+    color: rgb(112, 109, 109);
+    font-style: normal;
+}
+
+.end h1 {
+    /* font-size: xx-large; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    /* font-style: italic; */
+}
+
+.end h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+/* Final */
+.final {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    height: 80px;
+    margin: 30px 35px;
+    background-color: gainsboro;
+}
+
+.final img {
+    padding-left: 120px;
+    transform: translatex(30px);
+}
+
+.final a {
+    color: black;
+}
+
+#e {
+    margin-left: 50%;
+}
+
